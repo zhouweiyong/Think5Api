@@ -1,0 +1,624 @@
+[ 2016-10-12T00:04:39+08:00 ] ::1 ::1 GET /index.php/admin/news/show.html
+[ log ] localhost:8888/index.php/admin/news/show.html [运行时间：0.029602s][吞吐率：33.78req/s] [内存消耗：2,024.48kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 31
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:04:41+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.030298s][吞吐率：33.01req/s] [内存消耗：2,254.95kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:08:30+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.037828s][吞吐率：26.44req/s] [内存消耗：2,255.96kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:08:33+08:00 ] ::1 ::1 GET /index.php/admin/news/__URL__/addNews
+[ log ] localhost:8888/index.php/admin/news/__URL__/addNews [运行时间：0.032197s][吞吐率：31.06req/s] [内存消耗：2,067.00kb] [文件加载：49]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => '__URL__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:09:39+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.032278s][吞吐率：30.98req/s] [内存消耗：2,020.27kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 25
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:09:41+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.033440s][吞吐率：29.90req/s] [内存消耗：2,255.88kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:09:42+08:00 ] ::1 ::1 GET /index.php/admin/news/addnews.html
+[ log ] localhost:8888/index.php/admin/news/addnews.html [运行时间：0.027019s][吞吐率：37.01req/s] [内存消耗：1,936.84kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'addnews',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method addNews ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 26
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:10:02+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.028248s][吞吐率：35.40req/s] [内存消耗：2,025.43kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:10:03+08:00 ] ::1 ::1 GET /index.php/admin/news/addnews.html
+[ log ] localhost:8888/index.php/admin/news/addnews.html [运行时间：0.025953s][吞吐率：38.53req/s] [内存消耗：1,937.24kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'addnews',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method addNews ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 26
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:13:13+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.039682s][吞吐率：25.20req/s] [内存消耗：2,256.45kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:14:40+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.035187s][吞吐率：28.42req/s] [内存消耗：2,256.84kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:16:14+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.027276s][吞吐率：36.66req/s] [内存消耗：2,025.11kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:16:39+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.041239s][吞吐率：24.25req/s] [内存消耗：2,256.91kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:17:41+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.034657s][吞吐率：28.85req/s] [内存消耗：2,256.86kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:18:59+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.037593s][吞吐率：26.60req/s] [内存消耗：2,257.18kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:19:32+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.043689s][吞吐率：22.89req/s] [内存消耗：2,257.18kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:20:05+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.034327s][吞吐率：29.13req/s] [内存消耗：2,257.00kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:20:17+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.033268s][吞吐率：30.06req/s] [内存消耗：2,256.84kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-12T00:20:24+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.033256s][吞吐率：30.07req/s] [内存消耗：2,025.04kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

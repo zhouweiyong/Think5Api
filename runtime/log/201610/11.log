@@ -1,0 +1,2249 @@
+[ 2016-10-11T21:02:29+08:00 ] ::1 ::1 GET /
+[ log ] localhost:8888/ [运行时间：0.048935s][吞吐率：20.44req/s] [内存消耗：1,552.77kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476112281; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/index/controller/Index.php 6 - 9
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T21:02:36+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.038475s][吞吐率：25.99req/s] [内存消耗：2,006.23kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476112281; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T21:03:11+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.055379s][吞吐率：18.06req/s] [内存消耗：2,006.23kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476112281; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T21:06:35+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.042094s][吞吐率：23.76req/s] [内存消耗：2,235.91kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476187893; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T21:13:22+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.038395s][吞吐率：26.05req/s] [内存消耗：2,235.90kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476187893; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T21:13:30+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.029342s][吞吐率：34.08req/s] [内存消耗：2,006.33kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476187893; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T22:53:21+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.032397s][吞吐率：30.87req/s] [内存消耗：2,006.37kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476187893; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T22:53:24+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.027436s][吞吐率：36.45req/s] [内存消耗：2,006.27kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T22:53:27+08:00 ] ::1 ::1 GET /index.php/admin/user/show.html
+[ log ] localhost:8888/index.php/admin/user/show.html [运行时间：0.030008s][吞吐率：33.32req/s] [内存消耗：1,701.45kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:02:11+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.030155s][吞吐率：33.16req/s] [内存消耗：2,006.02kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:02:20+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.023904s][吞吐率：41.83req/s] [内存消耗：1,920.89kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 17 - 19
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:05:52+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.029190s][吞吐率：34.26req/s] [内存消耗：2,006.02kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:05:56+08:00 ] ::1 ::1 GET /index.php/admin/account/show.html
+[ log ] localhost:8888/index.php/admin/account/show.html [运行时间：0.030629s][吞吐率：32.65req/s] [内存消耗：2,050.84kb] [文件加载：48]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 22 - 24
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/show.html[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/view/driver/Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-10-11T23:06:06+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.034874s][吞吐率：28.67req/s] [内存消耗：2,050.84kb] [文件加载：48]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 18 - 20
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/view/driver/Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-10-11T23:06:50+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.032099s][吞吐率：31.15req/s] [内存消耗：2,006.27kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:06:53+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.037578s][吞吐率：26.61req/s] [内存消耗：2,358.23kb] [文件加载：53]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 18 - 20
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+) ]
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: Config[/Users/zhouweiyong/Code/web/Think5Api/runtime/temp/12d16a903da341a7896168b546956557.php:163]
+
+---------------------------------------------------------------
+[ 2016-10-11T23:07:20+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.035232s][吞吐率：28.38req/s] [内存消耗：2,235.56kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 21
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:12:16+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.039419s][吞吐率：25.37req/s] [内存消耗：2,074.18kb] [文件加载：50]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Config' not found[/Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/BaseController.php:20]
+
+---------------------------------------------------------------
+[ 2016-10-11T23:12:18+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.032505s][吞吐率：30.76req/s] [内存消耗：2,074.18kb] [文件加载：50]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Config' not found[/Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/BaseController.php:20]
+
+---------------------------------------------------------------
+[ 2016-10-11T23:14:45+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.028532s][吞吐率：35.05req/s] [内存消耗：2,014.14kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476193295; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:14:47+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.030946s][吞吐率：32.31req/s] [内存消耗：2,014.17kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:16:25+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.028601s][吞吐率：34.96req/s] [内存消耗：2,014.14kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:17:16+08:00 ] ::1 ::1 GET /index.php/admin
+[ log ] localhost:8888/index.php/admin [运行时间：0.035885s][吞吐率：27.87req/s] [内存消耗：2,014.38kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:17:19+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.029667s][吞吐率：33.71req/s] [内存消耗：2,015.88kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:17:22+08:00 ] ::1 ::1 GET /index.php/admin/account/show.html
+[ log ] localhost:8888/index.php/admin/account/show.html [运行时间：0.031316s][吞吐率：31.93req/s] [内存消耗：2,245.63kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 24 - 27
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:17:24+08:00 ] ::1 ::1 GET /index.php/admin/account/show.html
+[ log ] localhost:8888/index.php/admin/account/show.html [运行时间：0.026024s][吞吐率：38.43req/s] [内存消耗：2,016.30kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 24 - 27
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:17:26+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.027121s][吞吐率：36.87req/s] [内存消耗：2,016.18kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:19:20+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.033618s][吞吐率：29.75req/s] [内存消耗：2,020.25kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 26
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:19:29+08:00 ] ::1 ::1 GET /index.php/admin/
+[ log ] localhost:8888/index.php/admin/ [运行时间：0.028837s][吞吐率：34.68req/s] [内存消耗：2,014.14kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:19:32+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.025681s][吞吐率：38.94req/s] [内存消耗：2,020.48kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 26
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:17+08:00 ] ::1 ::1 GET /index.php/admin/
+[ log ] localhost:8888/index.php/admin/ [运行时间：0.035962s][吞吐率：27.81req/s] [内存消耗：2,014.38kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:20+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.026847s][吞吐率：37.25req/s] [内存消耗：2,022.02kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 26
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:21+08:00 ] ::1 ::1 GET /index.php/admin/account/show.html
+[ log ] localhost:8888/index.php/admin/account/show.html [运行时间：0.027747s][吞吐率：36.04req/s] [内存消耗：2,022.30kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 28 - 35
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:23+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.024515s][吞吐率：40.79req/s] [内存消耗：2,022.19kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 26
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:25+08:00 ] ::1 ::1 GET /index.php/admin/account/show.html
+[ log ] localhost:8888/index.php/admin/account/show.html [运行时间：0.027585s][吞吐率：36.25req/s] [内存消耗：2,022.30kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 28 - 35
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:27+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.026023s][吞吐率：38.43req/s] [内存消耗：2,022.19kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 26
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:29+08:00 ] ::1 ::1 GET /index.php/admin/account/show.html
+[ log ] localhost:8888/index.php/admin/account/show.html [运行时间：0.027639s][吞吐率：36.18req/s] [内存消耗：2,022.30kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 28 - 35
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:20:42+08:00 ] ::1 ::1 GET /index.php/admin/account/add.html
+[ log ] localhost:8888/index.php/admin/account/add.html [运行时间：0.027995s][吞吐率：35.72req/s] [内存消耗：2,022.02kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Account.php 19 - 26
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/account/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:26:05+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.027362s][吞吐率：36.55req/s] [内存消耗：2,014.63kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/account/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:26:10+08:00 ] ::1 ::1 GET /index.php/admin/product/add.html
+[ log ] localhost:8888/index.php/admin/product/add.html [运行时间：0.028831s][吞吐率：34.68req/s] [内存消耗：2,066.51kb] [文件加载：49]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 25 - 32
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/add.html[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/view/driver/Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-10-11T23:26:38+08:00 ] ::1 ::1 GET /index.php/admin/product/add.html
+[ log ] localhost:8888/index.php/admin/product/add.html [运行时间：0.032601s][吞吐率：30.67req/s] [内存消耗：2,251.48kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 25 - 32
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:26:41+08:00 ] ::1 ::1 GET /index.php/admin/product/show.html
+[ log ] localhost:8888/index.php/admin/product/show.html [运行时间：0.022601s][吞吐率：44.25req/s] [内存消耗：1,937.09kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 16 - 22
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:26:44+08:00 ] ::1 ::1 GET /index.php/admin/product/show.html
+[ log ] localhost:8888/index.php/admin/product/show.html [运行时间：0.022982s][吞吐率：43.51req/s] [内存消耗：1,937.09kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 16 - 22
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:27:23+08:00 ] ::1 ::1 GET /index.php/admin/product/show.html
+[ log ] localhost:8888/index.php/admin/product/show.html [运行时间：0.038440s][吞吐率：26.01req/s] [内存消耗：2,251.69kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 16 - 23
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:27:24+08:00 ] ::1 ::1 GET /index.php/admin/product/add.html
+[ log ] localhost:8888/index.php/admin/product/add.html [运行时间：0.027197s][吞吐率：36.77req/s] [内存消耗：2,022.08kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 26 - 33
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:27:26+08:00 ] ::1 ::1 GET /index.php/admin/product/show.html
+[ log ] localhost:8888/index.php/admin/product/show.html [运行时间：0.025191s][吞吐率：39.70req/s] [内存消耗：2,022.33kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 16 - 23
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:27:29+08:00 ] ::1 ::1 GET /index.php/admin/product/add.html
+[ log ] localhost:8888/index.php/admin/product/add.html [运行时间：0.029128s][吞吐率：34.33req/s] [内存消耗：2,022.08kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 26 - 33
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:27:44+08:00 ] ::1 ::1 GET /index.php/admin/product/show.html
+[ log ] localhost:8888/index.php/admin/product/show.html [运行时间：0.025688s][吞吐率：38.93req/s] [内存消耗：2,021.86kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Product.php 16 - 23
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/product/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:33:21+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.031632s][吞吐率：31.61req/s] [内存消耗：2,017.23kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/product/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:40:37+08:00 ] ::1 ::1 GET /index.php/admin/new/show.html
+[ log ] localhost:8888/index.php/admin/new/show.html [运行时间：0.024469s][吞吐率：40.87req/s] [内存消耗：1,703.11kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'new',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:41:10+08:00 ] ::1 ::1 GET /index.php/admin/new/add.html
+[ log ] localhost:8888/index.php/admin/new/add.html [运行时间：0.024283s][吞吐率：41.18req/s] [内存消耗：1,703.13kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'new',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:41:38+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.032539s][吞吐率：30.73req/s] [内存消耗：2,017.02kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:41:40+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.029709s][吞吐率：33.66req/s] [内存消耗：2,017.38kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:41:45+08:00 ] ::1 ::1 GET /index.php/admin/news/show.html
+[ log ] localhost:8888/index.php/admin/news/show.html [运行时间：0.023718s][吞吐率：42.16req/s] [内存消耗：1,933.96kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 26
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:41:49+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.031121s][吞吐率：32.13req/s] [内存消耗：2,252.77kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:14+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.036242s][吞吐率：27.59req/s] [内存消耗：2,017.18kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:16+08:00 ] ::1 ::1 GET /index.php/admin/news/show.html
+[ log ] localhost:8888/index.php/admin/news/show.html [运行时间：0.032286s][吞吐率：30.97req/s] [内存消耗：2,255.01kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 31
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:17+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.028881s][吞吐率：34.63req/s] [内存消耗：2,024.65kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:19+08:00 ] ::1 ::1 GET /index.php/admin/news/show.html
+[ log ] localhost:8888/index.php/admin/news/show.html [运行时间：0.028522s][吞吐率：35.06req/s] [内存消耗：2,024.59kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 31
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:31+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.026259s][吞吐率：38.08req/s] [内存消耗：2,024.70kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:32+08:00 ] ::1 ::1 GET /index.php/admin/news/show.html
+[ log ] localhost:8888/index.php/admin/news/show.html [运行时间：0.027718s][吞吐率：36.08req/s] [内存消耗：2,024.59kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 31
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:33+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.027246s][吞吐率：36.70req/s] [内存消耗：2,024.65kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:35+08:00 ] ::1 ::1 GET /index.php/admin/news/show.html
+[ log ] localhost:8888/index.php/admin/news/show.html [运行时间：0.030442s][吞吐率：32.85req/s] [内存消耗：2,024.59kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/add.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method show ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 24 - 31
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/show.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:54+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.030875s][吞吐率：32.39req/s] [内存消耗：2,017.27kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/news/show.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:43:57+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.027380s][吞吐率：36.52req/s] [内存消耗：2,017.38kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:44:30+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.034450s][吞吐率：29.03req/s] [内存消耗：2,020.02kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 25
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:45:14+08:00 ] ::1 ::1 GET /index.php/admin/index/index.html
+[ log ] localhost:8888/index.php/admin/index/index.html [运行时间：0.027986s][吞吐率：35.73req/s] [内存消耗：2,020.03kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/Index.php 17 - 25
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-11T23:45:16+08:00 ] ::1 ::1 GET /index.php/admin/news/add.html
+[ log ] localhost:8888/index.php/admin/news/add.html [运行时间：0.029364s][吞吐率：34.06req/s] [内存消耗：2,255.02kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8888/index.php/admin/index/index.html',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476198695; ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method add ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/News.php 15 - 22
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/news/add.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

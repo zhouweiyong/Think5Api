@@ -1,0 +1,33 @@
+[ 2016-10-17T23:46:06+08:00 ] ::1 ::1 GET /index.php/Admin/
+[ log ] localhost:8888/index.php/Admin/ [运行时间：0.056960s][吞吐率：17.56req/s] [内存消耗：2,019.71kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D; Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476376927',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/admin/controller/IndexController.php 17 - 25
+}
+
+[ info ] [ VIEW ] /Users/zhouweiyong/Code/web/Think5Api/public/../application/admin/view/index/index.html [ array (
+  0 => 'Config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
