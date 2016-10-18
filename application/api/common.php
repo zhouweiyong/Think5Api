@@ -13,7 +13,8 @@
 
 
 function getJsonParams(){
-    return file_get_contents("php://input");
+    $params= file_get_contents("php://input");
+    return json_decode($params);
 }
 
 

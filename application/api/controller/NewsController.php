@@ -1,6 +1,7 @@
 <?php
 
 namespace app\api\controller;
+use app\api\model\News;
 use think\Request;
 
 /**
@@ -12,10 +13,10 @@ use think\Request;
 class NewsController
 {
     public function newsList(){
-//        $params = $request->param();
-        dump(getJsonParams());
-        return respone(200,"请求成功","");
-        $params = input();
-        dump($params) ;
+        $params = getJsonParams();
+        $author = $params->author;
+        $news = News::all(["author"=>$author]);
+        
+        return respone(200,"请求成功",$news);
     }
 }

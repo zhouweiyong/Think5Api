@@ -3119,3 +3119,395 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2016-10-18T23:46:50+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.025877s][吞吐率：38.64req/s] [内存消耗：1,703.69kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 16
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function object_array()[/Users/zhouweiyong/Code/web/Think5Api/application/api/common.php:17]
+
+---------------------------------------------------------------
+[ 2016-10-18T23:47:08+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.026284s][吞吐率：38.05req/s] [内存消耗：1,679.00kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 16
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： object[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-18T23:47:09+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.025774s][吞吐率：38.80req/s] [内存消耗：1,679.00kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 16
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： object[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-18T23:47:11+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.027165s][吞吐率：36.81req/s] [内存消耗：1,679.00kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 16
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： object[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-18T23:47:29+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.026902s][吞吐率：37.17req/s] [内存消耗：1,679.00kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 16
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： object[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-18T23:48:03+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.022898s][吞吐率：43.67req/s] [内存消耗：1,558.05kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 16
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-18T23:48:14+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.023711s][吞吐率：42.17req/s] [内存消耗：1,599.06kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 17
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-18T23:49:20+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.021267s][吞吐率：47.02req/s] [内存消耗：1,598.77kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 17
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-18T23:49:21+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.021649s][吞吐率：46.19req/s] [内存消耗：1,598.53kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 17
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-18T23:50:01+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.030473s][吞吐率：32.82req/s] [内存消耗：1,679.66kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 17
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： object[/Users/zhouweiyong/Code/web/Think5Api/thinkphp/library/think/Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-18T23:50:29+08:00 ] ::1 ::1 POST /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.022640s][吞吐率：44.17req/s] [内存消耗：1,599.06kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/json',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 14 - 18
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-18T23:59:32+08:00 ] ::1 ::1 GET /index.php/api/news/newsList
+[ log ] localhost:8888/index.php/api/news/newsList [运行时间：0.026675s][吞吐率：37.49req/s] [内存消耗：1,699.32kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'newsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Webstorm-8aea5f95=23434b1f-8580-4344-a5c1-eff1d22687af; CNZZDATA155540=cnzz_eid%3D2136305627-1472045223-%26ntime%3D1476798193; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method newsList ] {
+  @@ /Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php 15 - 20
+}
+
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /Users/zhouweiyong/Code/web/Think5Api/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/Users/zhouweiyong/Code/web/Think5Api/application/api/controller/NewsController.php:17]
+
+---------------------------------------------------------------
