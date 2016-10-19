@@ -12,3 +12,18 @@ author varchar(20) NOT NULL ,
 newsContent TEXT NOT NULL,
 createTime int(10) UNSIGNED NOT NULL
 )ENGINE myisam CHARSET UTF8;
+
+
+CREATE TABLE api_product(
+id int(10) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+productName VARCHAR(20) NOT NULL ,
+productPrice DOUBLE(10,2) NOT NULL ,
+createTime int(10) UNSIGNED NOT NULL
+)ENGINE myisam CHARSET UTF8;
+
+CREATE TABLE product_image(
+id int(10) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+imageName VARCHAR(50) NOT NULL ,
+createTime int(10) UNSIGNED NOT NULL,
+productId int(10) NOT NULL
+)ENGINE myisam CHARSET UTF8;
