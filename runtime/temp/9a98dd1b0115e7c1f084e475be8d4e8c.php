@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\www\Think5Api\public/../application/admin\view\account\add.html";i:1486720131;s:61:"D:\www\Think5Api\public/../application/admin\view\layout.html";i:1486716994;s:66:"D:\www\Think5Api\public/../application/admin\view\public\menu.html";i:1486716994;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\www\Think5Api\public/../application/admin\view\account\add.html";i:1486720866;s:61:"D:\www\Think5Api\public/../application/admin\view\layout.html";i:1486716994;s:66:"D:\www\Think5Api\public/../application/admin\view\public\menu.html";i:1486716994;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -233,7 +233,7 @@
 
             <div class="page-content"><div>
     <div class="col-xs-12">
-        <form action="<?php echo url('News/addAction'); ?>" method="post" class="form-horizontal">
+        <form action="<?php echo url('account/addAction'); ?>" method="post" class="form-horizontal">
             <div class="form-group">
                 <label for="userName" class="col-sm-3 control-label">用户名</label>
 

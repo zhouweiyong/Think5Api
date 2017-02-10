@@ -9,6 +9,7 @@
 namespace app\admin\controller;
 
 
+use app\admin\model\User;
 use think\Controller;
 use think\response\View;
 
@@ -26,7 +27,12 @@ class AccountController extends BaseController
     }
 
     public function addAction(){
-
+        $user=new User();
+        if($user->validate(true)->save(input("post."))){
+            $this->success("用户添加成功");
+        }else{
+            $this->error($user->getError());
+        }
     }
     public function show(){
         $this->project["current_control"]="用户模块";
