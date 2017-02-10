@@ -25,6 +25,9 @@ class AccountController extends BaseController
         return $this->fetch();
     }
 
+    public function addAction(){
+
+    }
     public function show(){
         $this->project["current_control"]="用户模块";
         $this->project["current_action"]="查看";
