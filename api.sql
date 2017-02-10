@@ -3,6 +3,13 @@ CREATE DATABASE think5_api CHARSET utf8;
 
 USE think5_api;
 
+CREATE TABLE api_user(
+id int(10) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+userName char(20) NOT NULL,
+passWord char(20) NOT NULL,
+gender tinyint(1) NOT NULL default 2 COMMENT '男0女1未知2'
+)ENGINE MYISAM CHARSET UTF8;
+
 #添加新闻
 
 CREATE TABLE api_news(
