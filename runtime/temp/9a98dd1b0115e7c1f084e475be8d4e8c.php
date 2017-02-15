@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\www\Think5Api\public/../application/admin\view\account\add.html";i:1486720866;s:61:"D:\www\Think5Api\public/../application/admin\view\layout.html";i:1486716994;s:66:"D:\www\Think5Api\public/../application/admin\view\public\menu.html";i:1486716994;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\www\Think5Api\public/../application/admin\view\account\add.html";i:1486970479;s:61:"D:\www\Think5Api\public/../application/admin\view\layout.html";i:1486716994;s:66:"D:\www\Think5Api\public/../application/admin\view\public\menu.html";i:1486716994;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -238,14 +238,14 @@
                 <label for="userName" class="col-sm-3 control-label">用户名</label>
 
                 <div class="col-sm-9">
-                    <input type="text" id="userName" class="col-xs-10 form-control"/>
+                    <input type="text" id="userName" name="userName" class="col-xs-10 form-control"/>
                 </div>
             </div>
             <div class="form-group">
-                <label for="password" class="col-sm-3 control-label">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+                <label for="passWord" class="col-sm-3 control-label">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
 
                 <div class="col-sm-9">
-                    <input type="text" id="password" class="col-xs-10 form-control"/>
+                    <input type="text" id="passWord" name="passWord" class="col-xs-10 form-control"/>
                 </div>
             </div>
             <div class="form-group">
