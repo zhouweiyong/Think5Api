@@ -11,6 +11,7 @@ namespace app\admin\controller;
 
 use app\admin\model\User;
 use think\Controller;
+use think\Session;
 
 class AccountController extends BaseController
 {
@@ -59,4 +60,57 @@ class AccountController extends BaseController
         $this->assign("Config", $this->project);
         return $this->fetch();
     }
+
+    public function getInfo()
+    {
+        $userInfo = ["userName" => "tom", "age" => "23", "gender" => "man"];
+        return json($userInfo);
+    }
+
+    public function postInfo()
+    {
+        $userName = input("userName");
+        $age = input("age");
+        $gender = input("gender");
+        $userInfo = ["userName" => $userName, "age" => $age, "gender" => $gender];
+        return json($userInfo);
+    }
+
+
+    public function postString()
+    {
+        $parameter = file_get_contents("php://input");
+        return $parameter;
+    }
+
+
+
+    public function postFile()
+    {
+        $userName = input("userName");
+        $age = input("age");
+        $file = request()->file("upImage");
+        $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
+        if ($info){
+            // 成功上传后 获取上传信息
+            // 输出 jpg
+            echo $info->getExtension();
+            // 输出 20160820/42a79759f284b767dfcb2a0197904287.jpg
+            echo $info->getSaveName();
+            // 输出 42a79759f284b767dfcb2a0197904287.jpg
+            echo $info->getFilename();
+        }else{
+            // 上传失败获取错误信息
+            echo $file->getError();
+        }
+
+        return $userName;
+    }
+
+
+    public function setSession(){
+        session_start();
+        echo session_id();
+    }
+
 }
