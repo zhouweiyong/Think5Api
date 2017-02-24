@@ -67,6 +67,14 @@ class AccountController extends BaseController
         return json($userInfo);
     }
 
+    public function get2(){
+        $userName = input("userName");
+        $age = input("age");
+        $gender = input("gender");
+        $userInfo = ["userName" => $userName, "age" => $age, "gender" => $gender];
+        return json($userInfo);
+    }
+
     public function postInfo()
     {
         $userName = input("userName");
@@ -74,6 +82,20 @@ class AccountController extends BaseController
         $gender = input("gender");
         $userInfo = ["userName" => $userName, "age" => $age, "gender" => $gender];
         return json($userInfo);
+    }
+
+    public function post2(){
+        $msg = input("msg");
+        $rs = array();
+        $rs["code"]="200";
+        $rs["msg"]=$msg;
+        $rs["rs"]=array(array("userName"=>"tom","age"=>13),array("userName"=>"luck","age"=>36));
+        return json($rs);
+    }
+
+    public function post3(){
+        $parameter = file_get_contents("php://input");
+        return $parameter;
     }
 
 
