@@ -11,6 +11,8 @@ namespace app\admin\controller;
 
 use app\admin\model\User;
 use think\Controller;
+use think\Cookie;
+use think\Response;
 use think\Session;
 
 class AccountController extends BaseController
@@ -62,7 +64,7 @@ class AccountController extends BaseController
     }
 
     public function getInfo()
-    {
+    {   sleep(5);
         $userInfo = ["userName" => "tom", "age" => "23", "gender" => "man"];
         return json($userInfo);
     }
@@ -81,6 +83,8 @@ class AccountController extends BaseController
         $age = input("age");
         $gender = input("gender");
         $userInfo = ["userName" => $userName, "age" => $age, "gender" => $gender];
+        Cookie::set("name","vst");
+        header("Cache-Time:300000");
         return json($userInfo);
     }
 
